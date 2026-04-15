@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Minecraft Ten";
+    src: url(assets/fonts/minecraft-ten/MinecraftTen-VGORe.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Minecraft";
+    src: url(assets/fonts/minecraft/MinecraftRegular-Bmg3.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+}
+
+.bar {
+    height: 10vh;
+    background-image: url(assets/textures/dirt.jpg);
+    background-size: 128px 128px;
+}
+
+.field {
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(assets/textures/stone.jpg);
+    background-size: 128px 128px;
+}
+
+.bottom {
+    height: 10vh;
+    background-image: url(assets/textures/nether-rack.jpg);
+    background-size: 128px 128px;
+}
+
+.container {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.justify-left {
+    justify-content: flex-start;
+}
+
+.align-bottom {
+    align-items: flex-end;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.title-text {
+    font-family: 'Minecraft Ten';
+    font-size: 2em;
+}
+
+.common-text {
+    font-family: 'Minecraft';
+    font-size: 1.5em;
+}
+
+.white-text {
+    color: white;
+}
+
+#cookie {
+    width: 200px;
+    height: 200px;
+    background-image: url("assets/img/cookie.png");
+    background-size: cover;
+    cursor: pointer;
+}
